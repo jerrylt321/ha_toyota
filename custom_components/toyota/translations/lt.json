@@ -1,0 +1,141 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Įveskite MyT naudojamą el. pašto adresą ir slaptažodį.",
+        "data": {
+          "email": "El. paštas",
+          "password": "Slaptažodis",
+          "use_metric_values": "Naudokite metrinius vienetus (pvz., km vietoj mylių)"
+        }
+      }
+    },
+    "error": {
+      "invalid_username": "El. pašto adrese turi būti @.",
+      "invalid_auth": "Neteisingas el. pašto adresas arba slaptažodis.",
+      "unknown": "Nenumatyta klaida."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "use_liters": "Naudokite litrus (L/100 mylių) vietoj MPG. Taikoma tik tuo atveju, jei jūsų automobilis pateikia duomenis myliomis (imperinė matavimo vienetų sistema)."
+        }
+      }
+    }
+  },
+  "entity": {
+    "device_tracker": {
+      "parking_location": {
+        "name": "Stovėjimo vieta"
+      }
+    },
+    "sensor": {
+      "vin": {
+        "name": "VIN"
+      },
+      "odometer": {
+        "name": "Rida"
+      },
+      "fuel_level": {
+        "name": "Degalų lygis"
+      },
+      "fuel_range": {
+        "name": "Nuvažiuojamas atstumas"
+      },
+      "battery_level": {
+        "name": "Baterijos įkrovos lygis"
+      },
+      "battery_range_ac": {
+        "name": "Elektra nuvažiuojamas atstumas su AC"
+      },
+      "battery_range": {
+        "name": "Elektra nuvažiuojamas atstumas"
+      },
+      "total_range": {
+        "name": "Visas nuvažiuojamas atstumas"
+      },
+      "current_day_statistics": {
+        "name": "Einamosios dienos statistika"
+      },
+      "current_week_statistics": {
+        "name": "Einamosios savaitės statistika"
+      },
+      "current_month_statistics": {
+        "name": "Einamojo mėnesio statistika"
+      },
+      "current_year_statistics": {
+        "name": "Einamųjų metų statistika"
+      }
+    },
+    "binary_sensor": {
+      "over_all_status": {
+        "name": "Automobilio būsena"
+      },
+      "hood": {
+        "name": "Priekinis dangtis"
+      },
+      "key_in_car": {
+        "name": "Raktas automobilyje"
+      },
+      "front_defogger": {
+        "name": "Priekinio stiklo atitirpinimas"
+      },
+      "rear_defogger": {
+        "name": "Galinio stiklo atitirpinimas"
+      },
+      "driverseat_window": {
+        "name": "Vairuotojo pusės langas"
+      },
+      "passengerseat_window": {
+        "name": "Keleivio pusės langas"
+      },
+      "leftrearseat_window": {
+        "name": "Kairės pusės galinis langas"
+      },
+      "rightrearseat_window": {
+        "name": "Dešinės pusės galinis langas"
+      },
+      "driverseat_door": {
+        "name": "Vairuotojo durys"
+      },
+      "driverseat_lock": {
+        "name": "Vairuotojo durų užraktas"
+      },
+      "passengerseat_door": {
+        "name": "Keleivio durys"
+      },
+      "passengerseat_lock": {
+        "name": "Keleivio durų užraktas"
+      },
+      "leftrearseat_door": {
+        "name": "Kairės pusės galinės durys"
+      },
+      "leftrearseat_lock": {
+        "name": "Kairės pusės galinių durų užraktas"
+      },
+      "rightrearseat_door": {
+        "name": "Dešinės pusės galinės durys"
+      },
+      "rightrearseat_lock": {
+        "name": "Dešinės pusės galinių durų užraktas"
+      },
+      "trunk_door": {
+        "name": "Galinis dangtis"
+      },
+      "trunk_lock": {
+        "name": "Galinio dangčio užraktas"
+      },
+      "hazardlights": {
+        "name": "Avariniai žibintai"
+      },
+      "headlights": {
+        "name": "Priekiniai žibintai"
+      },
+      "taillights": {
+        "name": "Galiniai žibintai"
+      }
+    }
+  }
+}
